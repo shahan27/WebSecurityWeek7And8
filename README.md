@@ -26,14 +26,19 @@ Time spent: **5** hours spent in total
   
   - [X] Steps to recreate: Upload a new image to the library >> Then click on that image >> Then in the title section, add the following JavaScript "<IMG SRC="#" ONERROR="alert('HACKED HACKED HACKED')"/>" Then clck next to the image name.
  
-3. WordPress => 4.2 - User Authentication 
+3. (Required) WordPress  4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [X] Summary: 
-    - Vulnerability types:User Authentication
-    - Fixed in version: 4.2
+    This vulnerablity allows remote attackers to inject arbitrary web script or HTML via video URL in YouTube emebeds. infected code runs when the page is rendered.
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.6
   - [X] GIF Walkthrough: 
-  ![user](https://user-images.githubusercontent.com/36207058/55602007-881b1100-5731-11e9-8ec8-8745f2f9a5ae.gif)
-  
-  - [X] Steps to recreate: Type "admin" as username and provide different password >> Try different name as username >> Then type different password as password.
+![xss2_embeddedlink](https://github.com/shahan27/WebSecurityWeek7And8/blob/master/thirdExample.gif)  
+- [X] Steps to recreate: 
+        Create a new page in WP and add the code in page's body. Code will be execcuted when page is rendered.
+    ```[embed src='https://youtube.com/embed/testtestest\x3csvg onload=alert(1)\x3e'][/embed]```
+  - [x] Affected source code:
+    - [Link 1](http://wpdistillery.dev/?page_id=43)
   
 ## Assets
 
