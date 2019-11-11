@@ -12,7 +12,7 @@ Time spent: **5** hours spent in total
     - Tested in version:4.2
     - Fixed in version: 4.3
   - [ ] GIF Walkthrough: 
-  ![XSS](https://user-images.githubusercontent.com/36207058/55601969-63269e00-5731-11e9-8856-f783430d3259.gif)
+  ![XSS](https://github.com/shahan27/WebSecurityWeek7And8/blob/master/firstExample.gif)
   
   - [ ] Steps to recreate: Make a new post >> Write the following javascript"<script type="text/javascript">alert("XSS");</script>" Publish it >> Then view to post!
  
@@ -22,7 +22,7 @@ Time spent: **5** hours spent in total
     - Tested in version:4.2
     - Fixed in version: 4.6.1
   - [ ] GIF Walkthrough: 
-  ![XSS2](https://user-images.githubusercontent.com/36207058/55601987-7afe2200-5731-11e9-88d8-4778b305d60f.gif)
+  ![XSS2](https://github.com/shahan27/WebSecurityWeek7And8/blob/master/secondExample.gif)
   
   - [ ] Steps to recreate: Upload a new image (.png) in library >> go to library >> Then click on that image >> Then in the title section, add the following JavaScript "<IMG SRC="#" ONERROR="alert('XSS')"/>" Then clck next to the image name.
  
