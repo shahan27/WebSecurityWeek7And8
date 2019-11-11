@@ -7,33 +7,33 @@ Time spent: **5** hours spent in total
 ## Pentesting Report
 
 1. WordPress => 4.2 – Authenticated stored Cross-Site Scripting (XSS)
-  - [ ] Summary: 
+  - [X] Summary: 
     - Vulnerability types:XSS
     - Tested in version:4.2
     - Fixed in version: 4.3
-  - [ ] GIF Walkthrough: 
+  - [X] GIF Walkthrough: 
   ![XSS](https://github.com/shahan27/WebSecurityWeek7And8/blob/master/firstExample.gif)
   
-  - [ ] Steps to recreate: Make a new post >> Write the following javascript"<script type="text/javascript">alert("XSS");</script>" Publish it >> Then view to post!
+  - [X] Steps to recreate: Make a new post >> Write the following javascript"<script type="text/javascript">alert("Your text goes here");</script>" Publish it >> Then view to post!
  
 2. WordPress =>2.5 – 4.6 - Authenticated Stored Cross-Site Scripting (XSS) via Image frame 
-  - [ ] Summary: 
+  - [X] Summary: 
     - Vulnerability types:XSS
     - Tested in version:4.2
     - Fixed in version: 4.6.1
-  - [ ] GIF Walkthrough: 
+  - [X] GIF Walkthrough: 
   ![XSS2](https://github.com/shahan27/WebSecurityWeek7And8/blob/master/secondExample.gif)
   
-  - [ ] Steps to recreate: Upload a new image (.png) in library >> go to library >> Then click on that image >> Then in the title section, add the following JavaScript "<IMG SRC="#" ONERROR="alert('XSS')"/>" Then clck next to the image name.
+  - [X] Steps to recreate: Upload a new image to the library >> Then click on that image >> Then in the title section, add the following JavaScript "<IMG SRC="#" ONERROR="alert('HACKED HACKED HACKED')"/>" Then clck next to the image name.
  
 3. WordPress => 4.2 - User Authentication 
-  - [ ] Summary: 
+  - [X] Summary: 
     - Vulnerability types:User Authentication
     - Fixed in version: 4.2
-  - [ ] GIF Walkthrough: 
+  - [X] GIF Walkthrough: 
   ![user](https://user-images.githubusercontent.com/36207058/55602007-881b1100-5731-11e9-8ec8-8745f2f9a5ae.gif)
   
-  - [ ] Steps to recreate: Type "admin" as username and provide different password >> Try different name as username >> Then type different password as password.
+  - [X] Steps to recreate: Type "admin" as username and provide different password >> Try different name as username >> Then type different password as password.
   
 ## Assets
 
