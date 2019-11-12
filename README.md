@@ -57,7 +57,7 @@ Challenges faced during this work was the amount spent on setting up vagrant and
 
 ## License
 
-    Copyright [Spring 2019] [Shahan Rahman]
+    Copyright [Fall 2019] [Shahan Rahman]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
